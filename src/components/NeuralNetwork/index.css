@@ -1,0 +1,27 @@
+.section-neural{
+    background-color: rgba(255, 238, 0, 0.8);
+    margin-top: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.first-div{
+    width: 500px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

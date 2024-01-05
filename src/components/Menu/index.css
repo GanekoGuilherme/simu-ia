@@ -1,0 +1,24 @@
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Torna a lista um contêiner flexível */
+  justify-content: align-items;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px; /* Define a largura desejada para os quadrados */
+  text-align: center; /* Centraliza o texto dentro do quadrado */
+}
+
+.section-menu {background-color: rgba(128, 128, 128, 0.8);margin-top: -10px;
+  padding-left: 32px;
+  padding-top: 2px;
+  padding-bottom: 32px;
+}

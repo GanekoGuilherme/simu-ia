@@ -1,0 +1,24 @@
+
+  
+  .home {
+    position: relative;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 6em;
+  }
+  
+  p {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /* Remova as margens para evitar espaçamento indesejado */
+    font-size: 1em;
+    line-height: 1; 
+  }
